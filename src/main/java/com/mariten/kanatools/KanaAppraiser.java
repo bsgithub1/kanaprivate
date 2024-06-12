@@ -223,10 +223,12 @@ public class KanaAppraiser
     //{{{ boolean isZenkakuAscii(char)
     public static boolean isZenkakuAscii(char eval_char)
     {
+        System.out.println("test");
         if(eval_char >= ZENKAKU_ASCII_FIRST
         && eval_char <= ZENKAKU_ASCII_LAST) {
             return true;
         }
+     System.out.println("test");
         return false;
     }
     //}}}
